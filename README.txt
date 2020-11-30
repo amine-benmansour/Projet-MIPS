@@ -1,0 +1,2 @@
+l'objectif était de réaliser un pipeline à 5 étages sous l'architecutre MIPS l'idée était de charger dana la mémoire les diffèrentes instructions en assembleur puis de les décoder pour ensuite réaliser le pipeline avec  5 fonctions fetch, decode, alu,memory,et wb.
+L'idée était de vérifier pour chaque instructions qu'elle non pas de dépendance, s'il n'y en avait pas lorsque la 1 ère instruction à finis le fetch alors elle passera dans le decode et à ce moment la 2 ème instructions pourra effectuer le fetch ainsi de suite mais cela n'a pas été réussi. 
